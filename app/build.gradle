@@ -29,6 +29,7 @@ dependencies {
     testImplementation "junit:junit:${versions.junit}"
     androidTestImplementation "com.android.support.test:runner:${versions.runner}"
     androidTestImplementation "com.android.support.test.espresso:espresso-core:${versions.espressoCore}"
+    androidTestImplementation "com.android.support.test:rules:${versions.testRules}"
 
     // app
     implementation"org.jetbrains.kotlin:kotlin-stdlib-jdk7:${versions.kotlin}"

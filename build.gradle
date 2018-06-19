@@ -19,7 +19,8 @@ buildscript {
                 // test
                 'junit' : '4.12',
                 'runner' : '1.0.2',
-                'espressoCore' : '3.0.2'
+                'espressoCore' : '3.0.2',
+                'testRules' : '1.0.2'
 
         ]
     }
