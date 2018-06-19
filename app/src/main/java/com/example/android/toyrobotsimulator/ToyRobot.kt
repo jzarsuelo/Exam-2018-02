@@ -29,9 +29,9 @@ class ToyRobot(
 
     fun left() {
         facing = when (facing) {
-            CompassPoint.NORTH -> CompassPoint.EAST
-            CompassPoint.EAST -> CompassPoint.SOUTH
-            CompassPoint.SOUTH -> CompassPoint.WEST
+            CompassPoint.NORTH -> CompassPoint.WEST
+            CompassPoint.WEST -> CompassPoint.SOUTH
+            CompassPoint.SOUTH -> CompassPoint.EAST
             else -> CompassPoint.NORTH
         }
     }

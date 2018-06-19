@@ -80,6 +80,6 @@ class MainActivity : AppCompatActivity() {
     }
 
     companion object {
-        private const val TABLE_SIZE = 5
+        const val TABLE_SIZE = 5
     }
 }
