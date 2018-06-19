@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="compass_points">
+        <item>@string/north</item>
+        <item>@string/east</item>
+        <item>@string/south</item>
+        <item>@string/west</item>
+    </string-array>
+</resources>

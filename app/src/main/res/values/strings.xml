@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Toy Robot Simulator</string>
+    <string name="initial_coordinates">Initial coordinates:</string>
+    <string name="x">X</string>
+    <string name="y">Y</string>
+    <string name="north">North</string>
+    <string name="east">East</string>
+    <string name="south">South</string>
+    <string name="west">West</string>
+    <string name="place">Place</string>
+    <string name="move">Move</string>
+    <string name="report">Report</string>
+    <string name="left">Left</string>
+    <string name="right">Right</string>
 </resources>

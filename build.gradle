@@ -14,6 +14,7 @@ buildscript {
                 'appcompat' : '27.1.1',
                 'androidSupport' : '27.1.1',
                 'constraintLayout' : '1.1.2',
+                'supportLibrary' : '27.1.1',
 
                 // test
                 'junit' : '4.12',
