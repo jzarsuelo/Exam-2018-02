@@ -19,7 +19,8 @@
         android:layout_width="50dp"
         android:layout_height="wrap_content"
         app:layout_constraintLeft_toRightOf="@id/initialCoordinatesTextView"
-        android:inputType="numberDecimal"
+        android:inputType="number"
+        android:maxLength="1"
         android:hint="@string/x"/>
 
     <EditText
@@ -27,7 +28,8 @@
         android:layout_width="50dp"
         android:layout_height="wrap_content"
         app:layout_constraintLeft_toRightOf="@id/xCoordinateEditText"
-        android:inputType="numberDecimal"
+        android:inputType="number"
+        android:maxLength="1"
         android:hint="@string/y"/>
 
     <Spinner
@@ -66,6 +68,7 @@
         app:layout_constraintTop_toBottomOf="@+id/guidelineH1"
         app:layout_constraintLeft_toRightOf="@+id/guidelineLeft"
         app:layout_constraintRight_toLeftOf="@+id/guidelineRight"
+        android:enabled="false"
         android:text="@string/move"/>
 
     <android.support.constraint.Guideline
@@ -82,6 +85,7 @@
         app:layout_constraintTop_toBottomOf="@+id/guidelineH1"
         app:layout_constraintLeft_toRightOf="@+id/guidelineRight"
         app:layout_constraintRight_toRightOf="parent"
+        android:enabled="false"
         android:text="@string/report"/>
 
     <Button
@@ -91,6 +95,7 @@
         app:layout_constraintTop_toBottomOf="@+id/placeButton"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toLeftOf="@+id/guidelineLeft"
+        android:enabled="false"
         android:text="@string/left"/>
 
     <Button
@@ -100,19 +105,7 @@
         app:layout_constraintTop_toBottomOf="@+id/reportButton"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintLeft_toRightOf="@+id/guidelineRight"
+        android:enabled="false"
         android:text="@string/right"/>
-
-    <android.support.constraint.Guideline
-        android:id="@+id/guidelineH2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.4" />
-
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/logRecyclerView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@+id/guidelineH2"/>
 
 </android.support.constraint.ConstraintLayout>
